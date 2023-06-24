@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Main() {
+
+  const inputRef = useRef(null)
+
   return (
     <div className='container'>
       <h1 className='title text-light'> Quiz Application</h1>
@@ -14,8 +18,15 @@ export default function Main() {
       </ul>
 
       <form id="form">
-        <input type="text" placeholder="Username" />
+        <input ref={inputRef} type="text" placeholder="Username" />
       </form>
+
+
+      <div className="start">
+        <Link>
+
+        </Link>
+      </div>
     </div>
   )
 }
