@@ -24,7 +24,7 @@ export default function Main() {
 
       <div className="start">
         <Link className='btn' to={'quiz'}>
-
+          Start Quiz
         </Link>
       </div>
     </div>
