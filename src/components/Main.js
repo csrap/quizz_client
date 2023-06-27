@@ -19,7 +19,12 @@ export default function Main() {
       </ul>
 
       <form id="form">
-        <input ref={inputRef} type="text" placeholder="Username" />
+        <input
+          ref={inputRef}
+          type="text"
+          placeholder="Username"
+          className='userid'
+        />
       </form>
 
 
