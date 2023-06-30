@@ -8,8 +8,8 @@ export default function Quiz() {
       </h1>
 
       <div className='grid'>
-        <button>Prev</button>
-        <button>Max</button>
+        <button className='btn prev'>Prev</button>
+        <button className='btn next'>Max</button>
       </div>
     </div>
   )
