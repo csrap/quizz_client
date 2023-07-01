@@ -1,6 +1,10 @@
 import React from 'react'
 
 export default function Quiz() {
+
+  function onMext() {
+    console.log('')
+  }
   return (
     <div className='container'>
       <h1 className='title text-light'>
