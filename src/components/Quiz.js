@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Quiz() {
 
-  function onMext() {
+  function onNext() {
     console.log('On next click')
   }
 
@@ -17,10 +17,10 @@ export default function Quiz() {
         Quiz Application
       </h1>
 
-      <div className='grid'>
-        <button className='btn prev'>Prev</button>
-        <button className='btn next'>Max</button>
-      </div>
+      <Next className='grid'>
+        <button className='btn prev' onClick={onPrev}>Prev</button>
+        <button className='btn next' onClick={onNext}>Max</button>
+      </Next>
     </div>
   )
 }
