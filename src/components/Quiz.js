@@ -3,8 +3,14 @@ import React from 'react'
 export default function Quiz() {
 
   function onMext() {
-    console.log('')
+    console.log('On next click')
   }
+
+  function onPrev() {
+    console.log('On OnPrev click')
+  }
+
+
   return (
     <div className='container'>
       <h1 className='title text-light'>
