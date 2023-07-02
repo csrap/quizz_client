@@ -1,11 +1,15 @@
-import React from 'react'
+import React from 'react';
+import Questions from './Questions';
 
 export default function Quiz() {
 
+
+  /** next button event handle */
   function onNext() {
     console.log('On next click')
   }
 
+  /** prev button event handle */
   function onPrev() {
     console.log('On OnPrev click')
   }
@@ -17,10 +21,13 @@ export default function Quiz() {
         Quiz Application
       </h1>
 
-      <Next className='grid'>
+      {/*  display questions */}
+      <Questions></Questions>
+
+      <div className='grid'>
         <button className='btn prev' onClick={onPrev}>Prev</button>
         <button className='btn next' onClick={onNext}>Max</button>
-      </Next>
+      </div>
     </div>
   )
 }

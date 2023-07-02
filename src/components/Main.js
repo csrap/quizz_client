@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/main.css'
 
+
 export default function Main() {
 
   const inputRef = useRef(null)
