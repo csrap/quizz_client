@@ -2,6 +2,8 @@ import React from 'react'
 
 export const Questions = () => {
   return (
-    <div>Questions</div>
+    <div className="questions">
+      <h2 className='text-light'> Simple Question 1</h2>
+    </div>
   )
 }

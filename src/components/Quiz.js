@@ -22,7 +22,7 @@ export default function Quiz() {
       </h1>
 
       {/*  display questions */}
-      <Questions></Questions>
+      <Questions />
 
       <div className='grid'>
         <button className='btn prev' onClick={onPrev}>Prev</button>
