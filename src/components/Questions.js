@@ -10,6 +10,8 @@ export const Questions = () => {
           <input
             type="radio"
             value={true}
+            name="options"
+            id='q1-option'
           />
         </li>
       </ul>
