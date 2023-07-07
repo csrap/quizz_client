@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export default function Questions() {
+
+  const [checked, setchecked] = useState(undefined);
 
   function onSelect() {
     console.log('radio button change');
