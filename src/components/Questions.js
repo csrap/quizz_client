@@ -16,7 +16,7 @@ export default function Questions() {
         <li>
           <input
             type="radio"
-            value={true}
+            value={checkeds}
             name="options"
             id='q1-option'
             onChange={onSelect}
