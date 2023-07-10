@@ -22,6 +22,8 @@ export default function Questions() {
             id='q1-option'
             onChange={onSelect}
           />
+
+          <label className='text-primary' htmlFor="q1-option"> </label>
         </li>
       </ul>
     </div>
