@@ -23,7 +23,8 @@ export default function Questions() {
             onChange={onSelect}
           />
 
-          <label className='text-primary' htmlFor="q1-option"> </label>
+          <label className='text-primary' htmlFor="q1-option"> Option</label>
+          <div className='check checked'></div>
         </li>
       </ul>
     </div>
