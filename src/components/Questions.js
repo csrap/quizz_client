@@ -1,9 +1,13 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import data from '../database/data'
 
 export default function Questions() {
 
   const [checked, setchecked] = useState(undefined);
+
+  useEffect(() => {
+    console.log(data)
+  });
 
   function onSelect() {
     setchecked(true)
