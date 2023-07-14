@@ -5,6 +5,8 @@ export default function Questions() {
 
   const [checked, setchecked] = useState(undefined);
 
+  const question = data[0]
+
   useEffect(() => {
     console.log(data)
   });
