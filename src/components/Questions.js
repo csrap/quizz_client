@@ -20,7 +20,7 @@ export default function Questions() {
     <div className="questions">
       <h2 className='text-light'> Simple Question 1</h2>
 
-      <ul>
+      <ul key={question}>
         <li>
           <input
             type="radio"
