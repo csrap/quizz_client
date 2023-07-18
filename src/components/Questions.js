@@ -38,6 +38,7 @@ export default function Questions() {
                 onChange={() => onSelect(i)}
               />
 
+              <label htmlFor={`q${i}-option`}></label>
 
             </li>
           ))
